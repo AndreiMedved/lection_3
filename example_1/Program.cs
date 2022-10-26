@@ -26,10 +26,9 @@ string ExampleFour(int count, string text)
 {
     int i = 0;
     string result = String.Empty;
-    while(i < count)
+    for(int ind = 0; i < count; ind++)
     {
         result = result + " " + text;
-        i++;
     }
     return result;
 }
